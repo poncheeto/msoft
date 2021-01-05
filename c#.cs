@@ -1,6 +1,7 @@
-string[] names = { "Bob", "Conrad", "Grant"};
+int[] inventory = { 200, 450, 700, 175, 250};
+int sum = 0;
 
-foreach (string name in names)
+foreach (int items in inventory)
 {
-    Console.WriteLine(name);
+    sum += items;
 }
