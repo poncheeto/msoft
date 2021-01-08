@@ -1,21 +1,6 @@
-// The purpose of this code is to reverse a string and count the number of times a particular character appears.
+Console.WriteLine("Signed integral types:");
 
-
-string str = "The quick brown fox jumps over the lazy dog.";
-char[] charMessage = str.ToCharArray();
-Array.Reverse(charMessage);
-
-int x = 0;
-
-foreach (char i in charMessage) 
-{ 
-  if (i == 'o') 
-  { 
-    x++; 
-  } 
-}
-
-string new_message = new String(charMessage);
-
-Console.WriteLine(new_message);
-Console.WriteLine($"'o' appears {x} times.");
+Console.WriteLine($"sbyte  : {sbyte.MinValue} to {sbyte.MaxValue}");
+Console.WriteLine($"short  : {short.MinValue} to {short.MaxValue}");
+Console.WriteLine($"int    : {int.MinValue} to {int.MaxValue}");
+Console.WriteLine($"long   : {long.MinValue} to {long.MaxValue}");
