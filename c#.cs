@@ -1,2 +1,4 @@
-string shortenedString = "Hello World!";
-Console.WriteLine(shortenedString);
+int first = 2;
+string second = "4";
+int result = first + second;
+Console.WriteLine(result); 
