@@ -1,5 +1,5 @@
-decimal myDecimal = 3.14m;
-Console.WriteLine($"decmial: {myDecimal}");
+decimal myDecimal = 1.23456789m;
+float myFloat =(float)myDecimal;
 
-int myInt = (int)myDecimal;
-Console.WriteLine($"int: {myInt}");
+Console.WriteLine($"Decimal: {myDecimal}");
+Console.WriteLine($"Float: {myFloat}");
