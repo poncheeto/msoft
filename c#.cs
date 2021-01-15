@@ -8,6 +8,12 @@ foreach (string value in values)
     float num;
     if(float.TryParse(value, out num))
     {
-      Console.WriteLine(num);
+        sum += num;
+    }
+    else()
+    {
+
     }
 }
+
+Console.WriteLine($"Total: {sum}");
