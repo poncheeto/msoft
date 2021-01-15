@@ -1,4 +1,5 @@
-string first = "5";
-string second = "7";
-int result = Convert.ToInt32(first) * Convert.ToInt32(second);
-Console.WriteLine(result);
+int value = (int)1.5m; // casting truncates
+Console.WriteLine(value);
+
+int value2 = Convert.ToInt32(1.5m); // converting rounds up
+Console.WriteLine(value2);
