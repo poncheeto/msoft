@@ -1,8 +1,12 @@
 string[] values = { "12.3", "45", "ABC", "11", "DEF"};
+
 string message;
-int sum = 0;
+float num = 0f;
 
 foreach (string value in values)
 {
-    if()
+    if(float.TryParse(value, out num))
+    {
+      Console.WriteLine(num);
+    }
 }
