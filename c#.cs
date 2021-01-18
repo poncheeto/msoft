@@ -1,7 +1,7 @@
 string[] values = { "12.3", "45", "ABC", "11", "DEF"};
 
 string message = "";
-decimal total = 0.0d;
+decimal total = 0.0m;
 
 foreach (string value in values)
 {
