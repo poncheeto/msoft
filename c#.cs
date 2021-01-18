@@ -1,14 +1,14 @@
 string[] values = { "12.3", "45", "ABC", "11", "DEF"};
 
 string message = "";
-float sum = 0f;
+decimal total = 0.0d;
 
 foreach (string value in values)
 {
-    float num;
-    if(float.TryParse(value, out num))
+    decimal num;
+    if(decimal.TryParse(value, out num))
     {
-        sum += num;
+        total += num;
     }
     else
     {
@@ -17,4 +17,4 @@ foreach (string value in values)
 }
 
 Console.WriteLine($"Message: {message}");
-Console.WriteLine($"Total: {sum}");
+Console.WriteLine($"Total: {total}");
